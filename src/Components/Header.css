@@ -1,7 +1,11 @@
 .Heading {
     text-align: center;
     margin: 0px;
-    padding: 5px;
     width: 100%;
-    color: black;
+    color: white;
+    background-color: #F92020;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    padding: 10px;
+    font-style: italic;
 }

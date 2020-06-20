@@ -6,6 +6,7 @@ import { TransactionHistory } from './Components/TransactionHistory';
 import { AddTransaction } from './Components/AddTransaction';
 import { GlobalProvider } from './Context/GlobalState';
 import './App.css';
+import { Footer } from './Components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <TransactionHistory></TransactionHistory>
         <AddTransaction></AddTransaction>
       </div>
+      <Footer />
     </GlobalProvider>
   );
 }
